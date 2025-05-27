@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mağaza</title>
+  <link rel="stylesheet" href="store.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="left">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <a href="index.html">Anasayfa</a>
+    </div>
+    <div class="center">
+      <input type="text" placeholder="Ürün Ara..." />
+    </div>
+    <div class="right">
+      <i class="fas fa-user" title="Hesabım"></i>
+      <i class="fas fa-shopping-cart" title="Sepet"></i>
+    </div>
+  </nav>
+
+  <section class="filters">
+    <select id="categoryFilter">
+      <option value="">Kategori Seç</option>
+      <option value="koltuk">Koltuk</option>
+      <option value="masa">Masa</option>
+      <option value="yatak">Yatak</option>
+    </select>
+    <button onclick="filterProducts()">Filtrele</button>
+  </section>
+
+  <section id="productGrid"></section>
+
+  <script src="store.js"></script>
+</body>
+</html>

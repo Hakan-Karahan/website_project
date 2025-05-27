@@ -1,0 +1,92 @@
+/* Login/Register Styles */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+  }
+  
+  .auth-container {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .auth-container h2 {
+    color: #ff0000;
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .auth-container input {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .auth-container button {
+    padding: 12px 16px;
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .auth-container button:hover {
+    background: #cc0000;
+  }
+  
+  .auth-container .link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .auth-container .link a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  .auth-container .link a:hover {
+    text-decoration: underline;
+  }
+  .auth-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .secondary-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
